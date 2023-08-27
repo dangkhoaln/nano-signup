@@ -106,7 +106,8 @@ body {
     border-bottom: 3px solid rgb(173, 173, 173);
 }
 
-.field input:not(:placeholder-shown):invalid:not(:focus) {
+.field input:not(:placeholder-shown):invalid:not(:focus),
+.field input.invalid {
     border: 3px solid rgb(255, 137, 137);
 }
 
